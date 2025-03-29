@@ -59,9 +59,9 @@ class FireDetectionStateMachine(Node):
         
         # Define fire destination points (same as original)
         self.final_destinations = [
-            self.create_goal_pose(2.0, 0.0, 0),
-            self.create_goal_pose(2.0, 2.0, 45),
-            self.create_goal_pose(0.0, 2.0, 90)
+            self.create_goal_pose(1.54, 0.0, 0),
+            self.create_goal_pose(1.54, 1.54, 45),
+            self.create_goal_pose(0.0, 1.54, 90)
         ]
         
         # Publish to the same goal_pose topic as the original for compatibility
